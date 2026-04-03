@@ -1,0 +1,20 @@
+# Ignore datasets
+Assignment_2/build_cnn/data/
+
+# Ignore large archives
+*.tar.gz
+*.zip
+
+# Ignore model files (optional if large)
+*.pt
+*.pth
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Mac system files
+.DS_Store
