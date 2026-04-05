@@ -22,7 +22,7 @@ Assignment_2/
 │ └── building2.jpg
 ├── CSCI611_Assignment2_Julia_Reinhart.pdf      # Final report summarizing results
 ├── README.md                                   # Project description and instructions
-└──requirements.txt                             # List of dependencies to install
+└── requirements.txt                             # List of dependencies to install
 ```
 
 ---
