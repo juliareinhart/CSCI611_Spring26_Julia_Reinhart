@@ -10,16 +10,19 @@ This project contains two parts:
 ---
 
 Repository Structure
+
+```
 Assignment_2/
 │
 ├── build_cnn # Part 2: CNN implementation and training
 │ ├── build_cnn.ipynb
-│ └── cifar_data.png  
+│ └── cifar_data.png
 ├── image_filtering # Part 1: Image filtering and convolution
 │ ├── image_filtering.ipynb
-│ └── building2.jpg  
+│ └── building2.jpg
 ├── CSCI611_Assignment2_Julia_Reinhart.pdf # Final report summarizing results
 └── README.md # Project description and instructions
+```
 
 ---
 
