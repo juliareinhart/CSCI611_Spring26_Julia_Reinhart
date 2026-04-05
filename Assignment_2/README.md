@@ -14,14 +14,15 @@ Repository Structure
 ```
 Assignment_2/
 │
-├── build_cnn # Part 2: CNN implementation and training
+├── build_cnn                                   # Part 2: CNN implementation and training
 │ ├── build_cnn.ipynb
 │ └── cifar_data.png
-├── image_filtering # Part 1: Image filtering and convolution
+├── image_filtering                             # Part 1: Image filtering and convolution
 │ ├── image_filtering.ipynb
 │ └── building2.jpg
-├── CSCI611_Assignment2_Julia_Reinhart.pdf # Final report summarizing results
-└── README.md # Project description and instructions
+├── CSCI611_Assignment2_Julia_Reinhart.pdf      # Final report summarizing results
+├── README.md                                   # Project description and instructions
+└──requirements.txt                             # List of dependencies to install
 ```
 
 ---
