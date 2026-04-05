@@ -9,6 +9,37 @@ This project contains two parts:
 
 ---
 
+Repository Structure
+Assignment_2/
+│
+├── build_cnn # Part 2: CNN implementation and training
+│ ├── build_cnn.ipynb
+│ └── cifar_data.png  
+├── image_filtering # Part 1: Image filtering and convolution
+│ ├── image_filtering.ipynb
+│ └── building2.jpg  
+├── CSCI611_Assignment2_Julia_Reinhart.pdf # Final report summarizing results
+└── README.md # Project description and instructions
+
+---
+
+## Dataset
+
+This project uses the CIFAR-10 dataset for image classification.
+
+The dataset is automatically downloaded when running the CNN notebook using PyTorch:
+
+```python
+train_data = datasets.CIFAR10('data', train=True, download=True, transform=transform)
+test_data = datasets.CIFAR10('data', train=False, download=True, transform=transform)
+```
+
+No manual download is required. If the dataset is not already present, it will be downloaded automatically and stored in a local `data/` directory when the notebook is executed.
+
+For Part 1 (image filtering), the image file used is included in the repository.
+
+---
+
 ## Environment Setup
 
 1. Create the environment:
